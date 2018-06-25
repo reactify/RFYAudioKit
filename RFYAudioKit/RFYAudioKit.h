@@ -20,3 +20,5 @@ FOUNDATION_EXPORT const unsigned char RFYAudioKitVersionString[];
 #import <RFYAudioKit/RFYAudioQueuePlayer.h>
 #import <RFYAudioKit/RFYAudioStemsPlayer.h>
 #import <RFYAudioKit/RFYAudioUtils.h>
+#import <RYFAudioKit/TPCircularBuffer.h>
+#import <RYFAudioKit/TPCircularBuffer+AudioBufferList.h>
