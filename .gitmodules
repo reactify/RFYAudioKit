@@ -1,3 +1,6 @@
 [submodule "Libs/TPCircularBuffer"]
 	path = Libs/TPCircularBuffer
 	url = https://github.com/ragnaringi/TPCircularBuffer
+[submodule "Libs/RFYAppKit"]
+	path = Libs/RFYAppKit
+	url = https://github.com/reactify/RFYAppKit.git

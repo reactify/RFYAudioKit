@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C09920C320F77F2600F56BC3 /* RFYAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09920BF20F77E3500F56BC3 /* RFYAppKit.framework */; };
 		C0C8B7A620836606004BB9FD /* RFYAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C8B79C20836605004BB9FD /* RFYAudioKit.framework */; };
 		C0C8B7AB20836606004BB9FD /* RFYAudioKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7AA20836606004BB9FD /* RFYAudioKitTests.m */; };
 		C0E3515C20E11D4E00CB9B52 /* RFYAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3515220E11D4E00CB9B52 /* RFYAudioUtils.m */; };
@@ -23,11 +24,31 @@
 		C0E426BD20E1223200A60E8F /* TPCircularBuffer+AudioBufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E426B720E1223100A60E8F /* TPCircularBuffer+AudioBufferList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0E426BE20E1223200A60E8F /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = C0E426B820E1223100A60E8F /* TPCircularBuffer.c */; };
 		C0E426BF20E1223200A60E8F /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E426B920E1223100A60E8F /* TPCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0E426C320E1245A00A60E8F /* RFYAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E426C220E1245A00A60E8F /* RFYAppKit.framework */; };
 		C0E426C520E1252D00A60E8F /* RFYAudioKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B79F20836605004BB9FD /* RFYAudioKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C09920BE20F77E3500F56BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C09920B920F77E3500F56BC3 /* RFYAppKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0C8B79C20836605004BB9FD;
+			remoteInfo = RFYAppKit;
+		};
+		C09920C020F77E3500F56BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C09920B920F77E3500F56BC3 /* RFYAppKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0C8B7A520836606004BB9FD;
+			remoteInfo = RFYAppKitTests;
+		};
+		C09920C420F77F4600F56BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C09920B920F77E3500F56BC3 /* RFYAppKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C0C8B79B20836605004BB9FD;
+			remoteInfo = RFYAppKit;
+		};
 		C0C8B7A720836606004BB9FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C0C8B79320836605004BB9FD /* Project object */;
@@ -39,6 +60,7 @@
 
 /* Begin PBXFileReference section */
 		C05979632094BAB000966418 /* XcodeWarnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = XcodeWarnings.xcconfig; sourceTree = "<group>"; };
+		C09920B920F77E3500F56BC3 /* RFYAppKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RFYAppKit.xcodeproj; path = RFYAppKit/RFYAppKit.xcodeproj; sourceTree = "<group>"; };
 		C0C8B79C20836605004BB9FD /* RFYAudioKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RFYAudioKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C8B79F20836605004BB9FD /* RFYAudioKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFYAudioKit.h; sourceTree = "<group>"; };
 		C0C8B7A020836605004BB9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +81,6 @@
 		C0E426B720E1223100A60E8F /* TPCircularBuffer+AudioBufferList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TPCircularBuffer+AudioBufferList.h"; sourceTree = "<group>"; };
 		C0E426B820E1223100A60E8F /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
 		C0E426B920E1223100A60E8F /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
-		C0E426C220E1245A00A60E8F /* RFYAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RFYAppKit.framework; path = Carthage/Build/iOS/RFYAppKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0E426C320E1245A00A60E8F /* RFYAppKit.framework in Frameworks */,
+				C09920C320F77F2600F56BC3 /* RFYAppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C09920BA20F77E3500F56BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C09920BF20F77E3500F56BC3 /* RFYAppKit.framework */,
+				C09920C120F77E3500F56BC3 /* RFYAppKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C0C8B79220836605004BB9FD = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +172,7 @@
 		C0E350D220E113C600CB9B52 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				C09920B920F77E3500F56BC3 /* RFYAppKit.xcodeproj */,
 				C0E426B420E1223100A60E8F /* TPCircularBuffer */,
 			);
 			path = Libs;
@@ -161,7 +192,6 @@
 		C0E426C120E1245A00A60E8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0E426C220E1245A00A60E8F /* RFYAppKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -196,11 +226,11 @@
 				C0C8B79820836605004BB9FD /* Frameworks */,
 				C0C8B79920836605004BB9FD /* Headers */,
 				C0C8B79A20836605004BB9FD /* Resources */,
-				C0E426C420E1246800A60E8F /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C09920C520F77F4600F56BC3 /* PBXTargetDependency */,
 			);
 			name = RFYAudioKit;
 			productName = RFYAudioKit;
@@ -254,6 +284,12 @@
 			mainGroup = C0C8B79220836605004BB9FD;
 			productRefGroup = C0C8B79D20836605004BB9FD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C09920BA20F77E3500F56BC3 /* Products */;
+					ProjectRef = C09920B920F77E3500F56BC3 /* RFYAppKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C0C8B79B20836605004BB9FD /* RFYAudioKit */,
@@ -261,6 +297,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C09920BF20F77E3500F56BC3 /* RFYAppKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RFYAppKit.framework;
+			remoteRef = C09920BE20F77E3500F56BC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C09920C120F77E3500F56BC3 /* RFYAppKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RFYAppKitTests.xctest;
+			remoteRef = C09920C020F77E3500F56BC3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C0C8B79A20836605004BB9FD /* Resources */ = {
@@ -278,23 +331,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C0E426C420E1246800A60E8F /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RFYAppKit.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C0C8B79720836605004BB9FD /* Sources */ = {
@@ -321,6 +357,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C09920C520F77F4600F56BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RFYAppKit;
+			targetProxy = C09920C420F77F4600F56BC3 /* PBXContainerItemProxy */;
+		};
 		C0C8B7A820836606004BB9FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C0C8B79B20836605004BB9FD /* RFYAudioKit */;
@@ -451,15 +492,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				HEADER_SEARCH_PATHS = (
-					src,
-					src/audio,
-					src/utilities,
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = RFYAudioKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -481,15 +515,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				HEADER_SEARCH_PATHS = (
-					src,
-					src/audio,
-					src/utilities,
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = RFYAudioKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
